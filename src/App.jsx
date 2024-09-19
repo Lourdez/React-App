@@ -1,22 +1,17 @@
 import React from "react";
-import "./App.css"
+import "./index.css"
 function App() {
-   return(
-    <div>
-   <section>
+    return (
         <nav class="navbar">
-            <div class="nav-left">
-                <ul class="nav-list">
-                    <li><a href="#home">AI cover letter generator</a></li>
-                    <li><a href="#about">resume generator</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                </ul>
-            </div>
-  
+            <ul class="nav-li">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-    </section>
-    </div>
-   )
+
+    )
 }
 
 export default App
